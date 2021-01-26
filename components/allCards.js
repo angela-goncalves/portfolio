@@ -31,8 +31,18 @@ export default function allCards() {
     return (
         <div id="projects" className="py-16">
             <h2 className="p-4 font-subtitle text-2xl text-subtitle">Projects</h2>
-            <p className="p-4 sm:w-1/2 text-justify sm:px-4 "> I have been bulding the <em>Freecodecamp Responsive Projects</em> with HTML and CSS and coding some algoritms with JavaScript in codepen. This portfolio is build with fcc instructions and React/Next and Tailwind.
+            <div className="sm:w-1/2">
+                <p className="p-4  text-justify sm:px-4 ">I have been bulding the <em>Freecodecamp Responsive Projects</em> with HTML and CSS (posted in <strong className="text-strong">GitHub</strong>) and coding some algoritms with JavaScript in <strong className="text-strong">codepen</strong>. This portfolio is build with fcc instructions and React/Next and Tailwind.
             </p>
+                <div className="flex justify-around">
+                    <a href="https://codepen.io/angela-goncalves">
+                        <img src="../svg/codepenicon.svg" className="w-16 m-4" />
+                    </a>
+                    <a href="https://github.com/angela-goncalves">
+                        <img src="../svg/github.svg" className="w-16 m-4" />
+                    </a>
+                </div>
+            </div>
             <div className="sm:grid sm:grid-cols-2 sm:grid-rows-2 ">
                 {projectsData.map((project) =>
                     <Card title={project.title}
@@ -41,18 +51,6 @@ export default function allCards() {
                         href={project.href}
                     />
                 )}
-                <div className="flex flex-col items-center m-4 py-10 h-full ">
-                    <h2 className="py-4 font-paragraph text-2xl text-subsubtitle underline">Practicing with vanilla JS in codepen</h2>
-                    <a href="https://codepen.io/angela-goncalves/pen/zYKObdJc">
-                        <img src="../svg/codepenicon.svg" className="w-16 pb-4" />
-                    </a>
-                </div>
-                <div className="flex flex-col items-center m-4 p-10 h-full ">
-                    <h2 className="py-4 font-paragraph text-2xl text-subsubtitle underline">Other things in github</h2>
-                    <a href="https://github.com/angela-goncalves">
-                        <img src="../svg/github.svg" className="w-16 pb-4" />
-                    </a>
-                </div>
             </div>
         </div>
     )

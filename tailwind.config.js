@@ -15,7 +15,7 @@ module.exports = {
       'h1hover': '#E5DEBF',
       'strong': '#BDC065',
       'subtitle':'#995461',
-      'subsubtitle':'#BDC065',
+      'subsubtitle':'#8CA848',
     },
     backgroundColor: theme => ({
       'nav': '#F2F2F2',
