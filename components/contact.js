@@ -1,7 +1,7 @@
 export default function Contact() {
     return (
-        <div id="contact" className="h-full mt-16 mb-24 flex flex-col">
-            <h2 className="p-4"> Contact </h2>
+        <div id="contact" className="h-full py-14 flex flex-col">
+            <h2 className="p-4 font-subtitle text-2xl text-subtitle"> Contact </h2>
             <p className="p-4 sm:w-1/2 text-justify">
                 You could send me a message to either as if you are looking a developer, to comment something about what see here, or even if just want to say hi!
             </p>
