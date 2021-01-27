@@ -32,14 +32,14 @@ export default function allCards() {
         <div id="projects" className="py-16">
             <h2 className="p-4 font-subtitle text-2xl text-subtitle">Projects</h2>
             <div className="sm:w-1/2">
-                <p className="p-4  text-justify sm:px-4 ">I have been bulding the <em>Freecodecamp Responsive Projects</em> with HTML and CSS (posted in <strong className="text-strong">GitHub</strong>) and coding some algoritms with JavaScript in <strong className="text-strong">codepen</strong>. This portfolio is build with fcc instructions and React/Next and Tailwind.
+                <p className="p-4  text-justify sm:px-4 ">I have been bulding the <em>Freecodecamp Responsive Projects</em> with HTML and CSS (posted in <strong>GitHub</strong>) and coding some algoritms with JavaScript in <strong>codepen</strong>. This portfolio is build with fcc instructions and React/Next and Tailwind.
             </p>
                 <div className="flex justify-around">
                     <a href="https://codepen.io/angela-goncalves">
-                        <img src="../svg/codepenicon.svg" className="w-16 m-4" />
+                        <img src="../svg/codepenicon.svg" alt="e-mail icon" className="w-16 m-4" />
                     </a>
                     <a href="https://github.com/angela-goncalves">
-                        <img src="../svg/github.svg" className="w-16 m-4" />
+                        <img src="../svg/github.svg" alt="github icon" className="w-16 m-4" />
                     </a>
                 </div>
             </div>

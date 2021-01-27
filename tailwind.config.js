@@ -7,18 +7,18 @@ module.exports = {
       'display': ['Dancing Script, cursive'],
       'subtitle': ['Overlock, cursive'],
       'paragraph': ['Lateef, cursive'],
+      'description':['Source Sans Pro, sans-serif'],
     },
     textColor: {
-      'nav': '#EC8A73',
-      'navhover':'#995461',
+      'nav': '#850C5C',
       'h1':'#7C9952',
       'h1hover': '#E5DEBF',
-      'strong': '#BDC065',
-      'subtitle':'#995461',
-      'subsubtitle':'#8CA848',
+      'subtitle':'#850C5C',
+      'subsubtitle':'#850C5C',
     },
     backgroundColor: theme => ({
-      'nav': '#F2F2F2',
+      'nav': '#FFFF',
+      'card': '#E3F1E6',
      })
   },
   variants: {
