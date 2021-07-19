@@ -1,4 +1,3 @@
-# Portfolio
-<h2>My FCC project: <strong>Personal Portfolio</strong></h2>
+<h1>My FCC project: <strong>Personal Portfolio</strong></h1>
 
-Build with React. 
+Build with Next.js React Taillwind
