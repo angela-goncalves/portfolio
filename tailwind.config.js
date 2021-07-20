@@ -1,28 +1,33 @@
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
+  purge: ["./pages/**/*.js", "./components/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
     fontFamily: {
-      'display': ['Dancing Script, cursive'],
-      'subtitle': ['Overlock, cursive'],
-      'paragraph': ['Lateef, cursive'],
-      'description':['Source Sans Pro, sans-serif'],
+      display: ["Dancing Script, cursive"],
+      subtitle: ["Otomanopee One, sans-serif"],
+      paragraph: ["Zen Loop, cursive"],
+      description: ["Source Sans Pro, sans-serif"],
     },
     textColor: {
-      'nav': '#850C5C',
-      'h1':'#7C9952',
-      'h1hover': '#E5DEBF',
-      'subtitle':'#850C5C',
-      'subsubtitle':'#850C5C',
+      nav: "#A03C78",
+      h1: "#ED8E7C",
+      h1hover: "#CDF3A2",
+      subtitle: "#850C5C",
+      subsubtitle: "#ED8E7C",
     },
-    backgroundColor: theme => ({
-      'nav': '#FFFF',
-      'card': '#E3F1E6',
-     })
+    backgroundColor: (theme) => ({
+      ...theme("colors"),
+      nav: "#FFFF",
+      card: "#F1ECC3",
+    }),
+    borderColor: (theme) => ({
+      ...theme("colors"),
+      card: "#93D9A3",
+    }),
   },
   variants: {
     extend: {},
   },
-  plugins: []
-}
+  plugins: [],
+};

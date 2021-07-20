@@ -21,11 +21,11 @@ export default function Home() {
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Lateef&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap"
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"
           rel="stylesheet"
         />
       </Head>
