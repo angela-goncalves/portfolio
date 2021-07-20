@@ -39,7 +39,7 @@ const projectsData = [
   {
     image: "../svg/undraw_marvel-store.svg",
     title: "Marvel-Store/CMYK-sunset",
-    description: "",
+    description: "Group project",
     href: "https://marvel-store.vercel.app/",
   },
   {
