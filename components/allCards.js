@@ -56,30 +56,28 @@ export default function allCards() {
       <h2 className="p-4 font-subtitle text-2xl lg:text-3xl text-subtitle">
         Projects
       </h2>
-      <div className="w-full flex flex-col space-y-10 ">
-        <p>
-          My first projects were made just with HTML and CSS to get my
-          FreeCodeCamp web Responsive certification. The rest of my projects
-          were built with Reactjs or Nextjs and Tailwind.
-        </p>
-        <div className="flex items-center">
-          <a href="https://codepen.io/angela-goncalves">
-            <img
-              src="../svg/codepenicon.svg"
-              alt="e-mail icon"
-              className="w-12 md:w-16 mx-4"
-            />
-          </a>
-          <a href="https://github.com/angela-goncalves">
-            <img
-              src="../svg/github.svg"
-              alt="github icon"
-              className="w-12 md:w-16"
-            />
-          </a>
-        </div>
+      <p className="w-full max-w-xl text-justify">
+        My first projects were made just with HTML and CSS to get my
+        FreeCodeCamp web Responsive certification. The rest of my projects were
+        built with Reactjs or Nextjs and Tailwind.
+      </p>
+      <div className="flex items-center mt-10">
+        <a href="https://codepen.io/angela-goncalves">
+          <img
+            src="../svg/codepenicon.svg"
+            alt="e-mail icon"
+            className="w-12 md:w-16 mx-4"
+          />
+        </a>
+        <a href="https://github.com/angela-goncalves">
+          <img
+            src="../svg/github.svg"
+            alt="github icon"
+            className="w-12 md:w-16"
+          />
+        </a>
       </div>
-      <div className="lg:flex ">
+      <div className="w-full grid justify-items-center grid-cols-2 lg:grid-cols-3 mt-8">
         {projectsData.map((project, index) => (
           <Card
             key={index}

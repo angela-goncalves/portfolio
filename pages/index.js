@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from "next/document";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import AllCards from "../components/AllCards";
