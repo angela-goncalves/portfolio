@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Nav from "../components/Nav";
 import AllCards from "../components/AllCards";
 import Contact from "../components/Contact";
+import Nav from "../components/Navegation";
 
 export default function Home() {
   return (
@@ -27,8 +27,8 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"
           rel="stylesheet"
         />
-        <Nav />
       </Head>
+      <Nav />
       <Header />
       <AllCards />
       <Contact />
