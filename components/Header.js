@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <main
       id="about"
-      className="pt-24 md:pt-0 px-6 md:h-screen flex flex-col items-center lg:flex-row justify-center space-x-5"
+      className="mt-24 md:pt-28 md:pb-20 px-6 flex flex-col items-center lg:flex-row justify-center space-x-5"
     >
       <img
         src="png/yop.jpg"
