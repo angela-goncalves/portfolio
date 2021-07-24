@@ -77,7 +77,7 @@ export default function allCards() {
           />
         </a>
       </div>
-      <div className="w-full grid justify-items-center grid-cols-2 lg:grid-cols-3 mt-8">
+      <div className="w-full flex flex-col items-center md:grid justify-items-center md:grid-cols-2 lg:grid-cols-3 mt-8 max-w-6xl">
         {projectsData.map((project, index) => (
           <Card
             key={index}
