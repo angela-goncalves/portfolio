@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Header from "../components/Header";
-import AllCards from "../components/AllCards";
-import Contact from "../components/Contact";
+import About from "../components/About";
+import AllCards from "../components/ProjectCards";
+import Contact from "../components/ContactMe";
 import Nav from "../components/Navegation";
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
         />
       </Head>
       <Nav />
-      <Header />
+      <About />
       <AllCards />
       <Contact />
     </div>
