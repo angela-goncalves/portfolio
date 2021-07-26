@@ -12,40 +12,42 @@ const projectsData = [
     image: "../svg/undraw_landing.svg/",
     title: "Product Landing Page",
     description:
-      "Home page to find skin care products. A FreeCodeCamp project, build with HTML and CSS",
+      "Home page to find skin care products. A FreeCodeCamp project, build with HTML and CSS.",
     href: "https://fcc-landing-page-nine.vercel.app/",
   },
   {
     image: "../svg/undraw_docs.svg/",
     title: "Technical Documentation Page",
     description:
-      "I like biology, so I tried to capture some concepts about Inmunology in spanish in this documentation page. A FreeCodeCamp project, build with HTML and CSS",
+      "I like biology, so I tried to capture some concepts about Inmunology in spanish in this documentation page. A FreeCodeCamp project, build with HTML and CSS.",
     href: "https://fcc-documentation-page.angela-goncalves.vercel.app/",
   },
   {
     image: "../svg/undraw_tribute.svg/",
     title: "Tribute Page",
     description:
-      "This is my first fcc project that I did with HTML and CSS. I built it about my mom's favorite singer, so I enjoyed make code of it",
+      "This is my first fcc project that I did with HTML and CSS. I built it about my mom's favorite singer, so I enjoyed make code of it. A FreeCodeCamp project, build with HTML and CSS.",
     href: "https://fcc-tribute-page-eosin.vercel.app/",
   },
   {
     image: "../svg/undraw_Add_tasks.svg/",
     title: "Task tracker (To-do list)",
     description:
-      "Add tasks and edit them if necessary. Project built with Reactjs and tailwindcss",
+      "Add tasks and edit them if necessary. Project built with Reactjs and tailwindcss and used localStorage to save the tasks.",
     href: "https://react-task-tracker-eight.vercel.app/",
   },
   {
     image: "../svg/undraw_marvel-store.svg",
     title: "Marvel-Store/CMYK-sunset",
-    description: "Group project",
+    description:
+      "I love study in group and in FrontEndCafe I could do it. I really enjoyed this project because I could learn how to develop like in a dev job and know more about Next.js, Reactjs, Sass, Postman, firebase and Mongo DB.",
     href: "https://marvel-store.vercel.app/",
   },
   {
     image: "../svg/undraw_local-store.svg",
     title: "Local Store",
-    description: "",
+    description:
+      "To do some practice before learn about typescript and next I try this project that still is in process. Big project that I'll finish soon, so it will work like a generator of stores and their products.",
     href: "https://local-store-git-main-angela-goncalves.vercel.app/",
   },
 ];
@@ -58,8 +60,8 @@ export default function allCards() {
       </h2>
       <p className="w-full max-w-xl text-justify">
         My first projects were made just with HTML and CSS to get my
-        FreeCodeCamp web Responsive certification. The rest of my projects were
-        built with Reactjs or Nextjs and Tailwind.
+        FreeCodeCamp web Responsive certification and the other ones were built
+        with Reactjs or Nextjs and Tailwind.
       </p>
       <div className="flex items-center mt-10">
         <a href="https://codepen.io/angela-goncalves">
