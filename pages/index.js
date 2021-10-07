@@ -1,8 +1,7 @@
 import Head from "next/head";
-import About from "../components/About";
-import AllCards from "../components/ProjectCards";
-import Contact from "../components/ContactMe";
-import Nav from "../components/Navbar";
+import About from "../components/About.tsx";
+import AllCards from "../components/ProjectCards.tsx";
+import Contact from "../components/ContactMe.tsx";
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <Nav />
       <About />
       <AllCards />
       <Contact />

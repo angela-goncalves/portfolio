@@ -8,14 +8,11 @@ module.exports = {
       subtitle: ["Asap, sans-serif"],
     },
     textColor: {
-      nav: "#850C5C",
-      h1: "#7C9952",
-      h1hover: "#E5DEBF",
-      subtitle: "#850C5C",
-      subsubtitle: "#850C5C",
+      darkPurple: "#311643",
     },
     backgroundColor: (theme) => ({
-      nav: "#FFFF",
+      pink: "C8777B",
+      ligthPink: "DCAAB1",
       card: "#E3F1E6",
     }),
   },
