@@ -9,7 +9,7 @@ export default function About() {
         and I am Frontend Developer...
       </h2>
       <AboutLight />
-      <div className="text-justify font-subtitle text-base md:text-2xl max-w-6xl my-28">
+      <div className="text-justify font-subtitle text-base md:text-2xl max-w-6xl mt-28 mb-16">
         <p>...living in Buenos Aires Argentina.</p>
         <p>
           I started studying Programming with Free Code Camp and mentoring. Now,
