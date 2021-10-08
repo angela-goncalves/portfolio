@@ -9,7 +9,7 @@ export default function About() {
         and I am Frontend Developer...
       </h2>
       <AboutLight />
-      <div className="text-justify font-subtitle text-base md:text-2xl p-1 sm:p-2 max-w-5xl my-28">
+      <div className="text-justify font-subtitle text-base md:text-2xl max-w-6xl my-28">
         <p>...living in Buenos Aires Argentina.</p>
         <p>
           I started studying Programming with Free Code Camp and mentoring. Now,
@@ -22,11 +22,13 @@ export default function About() {
           Freelance and CMYK 4.
         </p>
       </div>
-      <div>
-        <button className="border-0 border-black w-24 h-10 md:w-40 md:h-12 p-3 text-base md:text-xl text-white bg-pink hover:bg-ligthPink hover:text-darkPurple">
+      <div className="flex space-x-8 self-end w-full max-w-3xl">
+        <button className="border-0 rounded-xl w-24 h-10 md:w-40 md:h-12 p-3 text-base md:text-xl text-white  hover:bg-darkPink bg-middlePink hover:text-white ">
           GitHub
         </button>
-        <button className="w-24 md:w-40 ">Linkdin</button>
+        <button className="border-0 rounded-xl w-24 h-10 md:w-40 md:h-12 p-3 text-base md:text-xl text-white  hover:bg-darkPink bg-middlePink hover:text-white">
+          Linkedin
+        </button>
       </div>
     </div>
   );

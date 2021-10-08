@@ -1,5 +1,6 @@
 module.exports = {
-  purge: ["./pages/**/*.js", "./components/**/*.js"],
+  mode: "jit",
+  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -7,13 +8,17 @@ module.exports = {
       title: ["Adamina, serif"],
       subtitle: ["Asap, sans-serif"],
     },
-    textColor: {
+    textColor: (theme) => ({
+      ...theme("colors"),
       darkPurple: "#311643",
-    },
+    }),
     backgroundColor: (theme) => ({
-      pink: "C8777B",
-      ligthPink: "DCAAB1",
-      card: "#E3F1E6",
+      ...theme("colors"),
+      pink: "#C8777B",
+      lightPink: "#DCAAB1",
+      middlePink: "#C8777B",
+      azul: "#345881",
+      darkPink: "#A63D4C",
     }),
   },
   variants: {
