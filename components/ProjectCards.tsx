@@ -1,47 +1,56 @@
-import Card from "./ProjectCard";
+import Card from "./Card";
 
 const projectsData = [
   {
-    image: "../svg/undraw_form.svg/",
+    image: "lightBlue",
     title: "Survey Form",
     description:
       "Survey of custumer satisfaction. A FreeCodeCamp project, build with HTML and CSS.",
     href: "https://fcc-survey-form-page.vercel.app/",
   },
   {
-    image: "../svg/undraw_landing.svg/",
+    image: "lightPink",
     title: "Product Landing Page",
     description:
       "Home page to find skin care products. A FreeCodeCamp project, build with HTML and CSS.",
     href: "https://fcc-landing-page-nine.vercel.app/",
   },
   {
-    image: "../svg/undraw_docs.svg/",
+    image: "lightBlue",
     title: "Technical Documentation Page",
     description:
       "I like biology, so I tried to capture some concepts about Inmunology in spanish in this documentation page. A FreeCodeCamp project, build with HTML and CSS.",
     href: "https://fcc-documentation-page.angela-goncalves.vercel.app/",
   },
   {
-    image: "../svg/undraw_tribute.svg/",
+    image: "lightPink",
     title: "Tribute Page",
     description:
       "This is my first fcc project that I did with HTML and CSS. I built it about my mom's favorite singer, so I enjoyed make code of it. A FreeCodeCamp project, build with HTML and CSS.",
     href: "https://fcc-tribute-page-eosin.vercel.app/",
   },
   {
-    image: "../svg/undraw_Add_tasks.svg/",
+    image: "lightBlue",
     title: "Task tracker (To-do list)",
     description:
       "Add tasks and edit them if necessary. Project built with Reactjs and tailwindcss and used localStorage to save the tasks.",
     href: "https://react-task-tracker-eight.vercel.app/",
   },
   {
-    image: "../svg/undraw_marvel-store.svg",
+    image: "lightPink",
     title: "Marvel-Store/CMYK-sunset",
     description:
       "I love study in group and in FrontEndCafe I could do it. I really enjoyed this project because I could learn how to develop like in a dev job and know more about Next.js, Reactjs, Sass, Postman, firebase and Mongo DB.",
     href: "https://marvel-store.vercel.app/",
+    youtube: "https://www.youtube.com/watch?v=5Ykdu-njQwM&t=179s",
+  },
+  {
+    image: "lightBlue",
+    title: "Colab Orange",
+    description:
+      "I love study in group and in FrontEndCafe I could do it. I really enjoyed this project because I could learn how to develop like in a dev job and know more about Next.js, Reactjs, Sass, Postman, firebase and Mongo DB.",
+    href: "https://marvel-store.vercel.app/",
+    youtube: "https://www.youtube.com/watch?v=YG0m_E9qb9s&t=5476s",
   },
   // {
   //   image: "../svg/undraw_local-store.svg",
@@ -54,39 +63,20 @@ const projectsData = [
 
 export default function allCards() {
   return (
-    <div id="projects" className="flex flex-col items-center pb-16 pt-24 px-6">
-      <h2 className="p-4 font-subtitle text-2xl lg:text-3xl text-subtitle">
-        Projects
-      </h2>
-      <p className="w-full max-w-xl text-justify">
-        My first projects were made just with HTML and CSS to get my
-        FreeCodeCamp web Responsive certification and the other ones were built
-        with Reactjs or Nextjs and Tailwind.
-      </p>
-      <div className="flex items-center mt-10">
-        <a href="https://codepen.io/angela-goncalves">
-          <img
-            src="../svg/codepenicon.svg"
-            alt="e-mail icon"
-            className="w-12 md:w-16 mx-4"
-          />
-        </a>
-        <a href="https://github.com/angela-goncalves">
-          <img
-            src="../svg/github.svg"
-            alt="github icon"
-            className="w-12 md:w-16"
-          />
-        </a>
+    <div id="projects" className="flex flex-col mt-72 mb-28 items-center">
+      <div className="w-full flex flex-row justify-around">
+        <h2 className="text-2xl md:text-5xl font-medium">Projects</h2>
+        <p className="text-justify text-2xl">You can take a look of my work.</p>
       </div>
-      <div className="w-full flex flex-col items-center md:grid justify-items-center md:grid-cols-2 lg:grid-cols-3 mt-8 max-w-6xl">
+      <div className="w-full md:max-w-7xl grid justify-items-center md:grid-cols-2">
         {projectsData.map((project, index) => (
           <Card
             key={index}
             title={project.title}
-            image={project.image}
+            bgImage={project.image}
             description={project.description}
             href={project.href}
+            youtube={project.youtube}
           />
         ))}
       </div>

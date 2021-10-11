@@ -5,8 +5,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      title: ["Adamina, serif"],
-      subtitle: ["Asap, sans-serif"],
+      asap: ["Asap, sans-serif"],
     },
     textColor: (theme) => ({
       ...theme("colors"),
@@ -20,6 +19,12 @@ module.exports = {
       azul: "#345881",
       darkPink: "#A63D4C",
     }),
+    backgroundImage: {
+      cardLightBlue: "url('/svg/cardLightBlue.svg')",
+      cardLightPink: "url('/svg/cardLightPink.svg')",
+      cardDarkBlue: "url('/svg/cardDarkBlue.svg')",
+      cardDarkPink: "url('/svg/cardDarkPink.svg')",
+    },
   },
   variants: {
     extend: {},
