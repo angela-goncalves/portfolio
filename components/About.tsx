@@ -23,12 +23,18 @@ export default function About() {
         </p>
       </div>
       <div className="flex space-x-8 self-end w-full max-w-3xl">
-        <button className="border-0 rounded-xl w-24 md:w-40 p-3 text-base md:text-xl text-white  hover:bg-darkPink bg-middlePink hover:text-white focus:outline-none">
+        <a
+          href="https://github.com/angela-goncalves"
+          className="border-2 border-middlePink rounded-xl w-24 md:w-40 p-3 text-base md:text-xl font-semibold text-darkPurple  text-center hover:underline focus:outline-none"
+        >
           GitHub
-        </button>
-        <button className="border-0 rounded-xl w-24 md:w-40 p-3 text-base md:text-xl text-white  hover:bg-darkPink bg-middlePink hover:text-white focus:outline-none">
+        </a>
+        <a
+          href="https://www.linkedin.com/in/angela-goncalves-6009a518a/"
+          className="border-2 border-middlePink rounded-xl w-24 md:w-40 p-3 text-base md:text-xl text-darkPurple text-center hover:underline focus:outline-none font-semibold"
+        >
           Linkedin
-        </button>
+        </a>
       </div>
     </div>
   );
