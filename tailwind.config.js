@@ -25,6 +25,13 @@ module.exports = {
       cardDarkBlue: "url('/svg/cardDarkBlue.svg')",
       cardDarkPink: "url('/svg/cardDarkPink.svg')",
     },
+    borderColor: (theme) => ({
+      ...theme("colors"),
+      DEFAULT: theme("colors.gray.300", "currentColor"),
+      lightPink: "#DCAAB1",
+      middlePink: "#C8777B",
+      darkPink: "#A63D4C",
+    }),
   },
   variants: {
     extend: {},
