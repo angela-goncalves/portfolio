@@ -18,6 +18,7 @@ module.exports = {
       lightPink: "#DCAAB1",
       azul: "#345881",
       darkPink: "#A63D4C",
+      midPurple: "#604E6C",
     }),
     backgroundImage: {
       cardLightBlue: "url('/svg/cardLightBlue.svg')",
