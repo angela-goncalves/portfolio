@@ -174,12 +174,14 @@ const projectsData = [
 
 export default function allCards() {
   return (
-    <div id="projects" className="flex flex-col mt-72 mb-28 items-center">
+    <div id="projects" className="flex flex-col mt-60 pt-10 items-center">
       <div className="w-full flex flex-row justify-around">
         <h2 className="text-2xl md:text-5xl font-medium text-darkPurple">
           Projects
         </h2>
-        <p className="text-justify text-2xl">You can take a look of my work.</p>
+        <p className="text-justify text-base md:text-2xl">
+          You can take a look of my work.
+        </p>
       </div>
       <div className="w-full md:max-w-7xl grid justify-items-center md:grid-cols-2">
         {projectsData.map((project, index) => (

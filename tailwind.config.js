@@ -13,9 +13,9 @@ module.exports = {
     }),
     backgroundColor: (theme) => ({
       ...theme("colors"),
-      pink: "#C8777B",
-      lightPink: "#DCAAB1",
+      pink: "#F0D2D6",
       middlePink: "#C8777B",
+      lightPink: "#DCAAB1",
       azul: "#345881",
       darkPink: "#A63D4C",
     }),
@@ -31,10 +31,11 @@ module.exports = {
       lightPink: "#DCAAB1",
       middlePink: "#C8777B",
       darkPink: "#A63D4C",
+      darkPurple: "#311643",
     }),
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
