@@ -8,18 +8,13 @@ export default function Nav() {
       />
       <ul className="flex self-center font-subtitle md:text-xl">
         <li>
-          <a href="#about" className="hover:underline">
+          <a href="#" className="hover:underline">
             <p className="px-8">About</p>
           </a>
         </li>
         <li>
           <a href="#projects" className="hover:underline ">
             <p className="px-8">Projects</p>
-          </a>
-        </li>
-        <li>
-          <a href="#contact" className="hover:underline ">
-            <p className="px-8">Blog</p>
           </a>
         </li>
         <li>

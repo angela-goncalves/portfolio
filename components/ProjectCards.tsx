@@ -2,6 +2,7 @@ import Card from "./Card";
 
 const projectsData = [
   {
+    id: 1,
     title: "Colab Orange",
     description:
       "An App where designers and developers can publish their own projects and contribute to others.",
@@ -12,23 +13,24 @@ const projectsData = [
     technologies: [
       {
         src: "../png/html5.png",
-        width: "w-14",
-      },
-      {
-        src: "../png/java-script.png",
-        width: "w-14",
-      },
-      {
-        src: "../svg/firebase.svg",
         width: "w-12",
       },
       {
+        src: "../png/java-script.png",
+        width: "w-12",
+      },
+      {
+        src: "../svg/firebase.svg",
+        width: "w-10",
+      },
+      {
         src: "../svg/bootstrap.svg",
-        width: "w-16",
+        width: "w-14",
       },
     ],
   },
   {
+    id: 2,
     title: "Task tracker (To-do list)",
     description:
       "Add tasks and edit them if necessary, they will be saved in the localStorage.",
@@ -39,15 +41,16 @@ const projectsData = [
     technologies: [
       {
         src: "../svg/react-icon.svg",
-        width: "w-14",
+        width: "w-12",
       },
       {
         src: "../svg/tailwind.svg",
-        width: "w-14",
+        width: "w-12",
       },
     ],
   },
   {
+    id: 3,
     title: "Fichap",
     description: "Freelance in team. Landing page about Fichap's service",
     image: "lightPink",
@@ -57,19 +60,20 @@ const projectsData = [
     technologies: [
       {
         src: "../svg/react-icon.svg",
-        width: "w-14",
+        width: "w-12",
       },
       {
         src: "../svg/tailwind.svg",
-        width: "w-14",
+        width: "w-12",
       },
       {
         src: "../svg/next-js.svg",
-        width: "w-14",
+        width: "w-12",
       },
     ],
   },
   {
+    id: 4,
     title: "Marvel-Store/CMYK-sunset",
     description: "Ecommerce to buy Marvel's comics.",
     href: "https://marvel-store.vercel.app/",
@@ -79,23 +83,24 @@ const projectsData = [
     technologies: [
       {
         src: "../svg/react-icon.svg",
-        width: "w-14",
+        width: "w-12",
       },
       {
         src: "../svg/logo-Sass.svg",
-        width: "w-14",
+        width: "w-12",
       },
       {
         src: "../svg/next-js.svg",
-        width: "w-14",
+        width: "w-12",
       },
       {
         src: "../svg/firebase.svg",
-        width: "w-12",
+        width: "w-10",
       },
     ],
   },
   {
+    id: 5,
     title: "Survey Form",
     description: "Survey of restaurant's custumer satisfaction.",
     image: "lightBlue",
@@ -105,15 +110,16 @@ const projectsData = [
     technologies: [
       {
         src: "../png/html5.png",
-        width: "w-14",
+        width: "w-12",
       },
       {
         src: "../png/css-3.png",
-        width: "w-14",
+        width: "w-12",
       },
     ],
   },
   {
+    id: 6,
     title: "Product Landing Page",
     description:
       "Products for Skin Care. All about skincare, from products, offers and news.",
@@ -133,6 +139,7 @@ const projectsData = [
     ],
   },
   {
+    id: 7,
     title: "Technical Documentation Page",
     description:
       "Introduction of Inmunology in spanish. Concepts and principal definitions.",
@@ -152,6 +159,7 @@ const projectsData = [
     ],
   },
   {
+    id: 8,
     title: "Tribute Page",
     description:
       "I built it about my mom's favorite spanish singer, Juan Gabriel.",
@@ -174,19 +182,20 @@ const projectsData = [
 
 export default function allCards() {
   return (
-    <div id="projects" className="flex flex-col mt-60 pt-10 items-center">
-      <div className="w-full flex flex-row justify-around">
+    <div id="projects" className="flex flex-col mt-40 pt-10 items-center">
+      <div className="w-full flex flex-row space-x-16 bg-lightPink shadow-box p-3 rounded-tr-lg rounded-tl-lg">
+        <img src="/svg/Group297.svg" alt="three circles" />
         <h2 className="text-2xl md:text-5xl font-medium text-darkPurple">
           Projects
         </h2>
-        <p className="text-justify text-base md:text-2xl">
+        {/* <p className="text-justify text-base md:text-2xl ">
           You can take a look of my work.
-        </p>
+        </p> */}
       </div>
       <div className="w-full md:max-w-7xl grid justify-items-center md:grid-cols-2">
-        {projectsData.map((project, index) => (
+        {projectsData.map((project) => (
           <Card
-            key={index}
+            key={project.id}
             title={project.title}
             bgImage={project.image}
             description={project.description}

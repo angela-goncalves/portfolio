@@ -8,7 +8,10 @@ export default function Home() {
     <div className="w-full font-asap">
       <Head>
         <title>Angela's portfolio</title>
-        <meta name="description" content="Front-end Developer Portfolio"></meta>
+        <meta
+          name="description"
+          content="Angela's Front-end Developer Portfolio"
+        ></meta>
         <html lang="en" />
         <link rel="icon" href="/favicon.ico" />
         <link

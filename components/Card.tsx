@@ -12,10 +12,6 @@ export default function Card({
       ? "bg-cardLightPink bg-no-repeat bg-contain"
       : bgImage === "lightBlue"
       ? "bg-cardLightBlue bg-no-repeat bg-contain"
-      : bgImage === "DarkPink"
-      ? "bg-cardDarkPink bg-no-repeat"
-      : bgImage === "DarkBlue"
-      ? "bg-cardDarkBlue bg-no-repeat"
       : "";
 
   return (
@@ -28,11 +24,8 @@ export default function Card({
         </h2>
         <p className="w-full text-center font-normal text-xl">{description}</p>
         <div className="flex space-x-5 my-6">
-          {technologies.map((elem) => (
-            <img
-              src={elem.src}
-              className={`${elem.width} bg-white rounded-xl p-2`}
-            />
+          {technologies.map((elem, index) => (
+            <img key={index} src={elem.src} className={`${elem.width}`} />
           ))}
         </div>
         <div className="flex m-0 space-x-8 ">
