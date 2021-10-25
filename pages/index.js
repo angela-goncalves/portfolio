@@ -5,7 +5,7 @@ import Contact from "../components/ContactMe.tsx";
 
 export default function Home() {
   return (
-    <div className="w-full font-asap">
+    <div className="font-asap m-4 mt-0 md:m-52 md:mt-28">
       <Head>
         <title>Angela's portfolio</title>
         <meta

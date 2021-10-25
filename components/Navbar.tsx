@@ -1,25 +1,25 @@
 export default function Nav() {
   return (
-    <nav className="flex justify-between py-5 px-10 md:py-8 ">
+    <nav className="flex justify-around md:justify-between py-5 px-0 md:py-8 md:px-10">
       <img
         src="svg/personal-logo.svg"
         alt="Angela's Logo"
-        className="w-7 lg:w-12 mx-3"
+        className="w-7 lg:w-12"
       />
-      <ul className="flex self-center font-subtitle md:text-xl">
+      <ul className="flex text-sm space-x-8 self-center md:text-xl">
         <li>
           <a href="#" className="hover:underline">
-            <p className="px-8">About</p>
+            <p className="">About</p>
           </a>
         </li>
         <li>
           <a href="#projects" className="hover:underline ">
-            <p className="px-8">Projects</p>
+            <p className="">Projects</p>
           </a>
         </li>
         <li>
           <a href="#contact" className="hover:underline ">
-            <p className="px-8">Contact</p>
+            <p className="">Contact</p>
           </a>
         </li>
       </ul>

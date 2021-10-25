@@ -17,10 +17,10 @@ module.exports = {
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),
-      pink: "#F0D2D6",
-      middlePink: "#C8777B",
+      pink2: "#FFC7CF",
+      darkblue: "#345881",
       lightPink: "#F6DEE1",
-      blue: "#345881",
+      blue: "#6991BE",
       darkPink: "#A63D4C",
       midPurple: "#604E6C",
     }),

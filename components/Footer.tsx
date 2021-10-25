@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <div className="bg-midPurple flex flex-col items-center p-11 mt-56 text-white">
+    <div className="bg-midPurple flex flex-col items-center p-4 md:p-11 mt-40 md:mt-56 text-white">
       <a href="#about" className="self-end">
         <svg
           width="38"
@@ -71,7 +71,7 @@ export default function Footer() {
           <h2 className="text-sm md:text-xl font-medium">Angela Goncalves</h2>
         </a>
       </Link>
-      <div className=" flex flex-row space-x-10 text-sm md:text-lg mt-8">
+      <div className=" flex flex-row space-x-4 md:space-x-10 text-sm md:text-lg mt-2 md:mt-8">
         <a href="#about" className="">
           About
         </a>
@@ -82,7 +82,7 @@ export default function Footer() {
           Contact
         </a>
       </div>
-      <div className="flex flex-row my-8 space-x-10">
+      <div className="flex flex-row mt-4 mb-6 md:my-8 space-x-4 md:space-x-10">
         <a href="https://www.linkedin.com/in/angela-goncalves-6009a518a/">
           <img src="../svg/Linkedin.svg" alt="my linkedin profile" />
         </a>
@@ -92,7 +92,7 @@ export default function Footer() {
       </div>
       <div className="w-full flex flex-row justify-between text-sm md:text-base">
         <p>Built with React, Next, Tailwind, Typescript.</p>
-        <p>Designed in figma and love. 2021</p>
+        <p className="text-center">Designed in figma and love. 2021</p>
       </div>
     </div>
   );
