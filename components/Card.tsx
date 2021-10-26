@@ -16,7 +16,7 @@ export default function Card({
 
   return (
     <div
-      className={`w-full my-8 md:mt-28 transform hover:scale-105 md:max-w-lg`}
+      className={`w-full my-8 md:mt-12 transform hover:scale-105 md:max-w-lg`}
     >
       <div className={`${bg} rounded-tr-lg rounded-tl-lg p-2 shadow-box`}>
         <img src="/svg/Group297.svg" alt="three circles" />

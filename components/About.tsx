@@ -38,6 +38,13 @@ export default function About() {
           >
             Linkedin
           </a>
+          <a
+            href="/angela-goncalves-frontend.pdf"
+            download
+            className="p-3 text-base md:text-xl font-semibold text-darkPink underline focus:outline-none hover:text-darkPurple"
+          >
+            CV
+          </a>
         </div>
       </div>
       <div className="w-56 md:w-80">

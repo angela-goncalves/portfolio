@@ -22,8 +22,8 @@ export default function Contact() {
             >
               send me a message
             </a>
-            if you are looking a React developer, to comment something about
-            what see here, or even if just want to say hi!
+            {""} if you are looking a React developer, to comment something
+            about what see here, or even if just want to say hi!
           </p>
           <p className="text-base md:text-2xl text-justify my-4 md:my-14">
             Feel free to send me an email me any time.
