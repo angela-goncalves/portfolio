@@ -36,16 +36,20 @@ export default function Card({
           ))}
         </div>
         <div className="flex m-0 space-x-8 underline text-sm md:text-lg text-black font-bold">
-          <a href={href} target="_blank" className="">
+          <a href={href} target="_blank">
             Demo
           </a>
-          <a href={github} target="_blank" className="">
+          <a
+            href={github}
+            target="_blank"
+            className={`${github.length === 0 ? "hidden" : "block"}`}
+          >
             GitHub
           </a>
           <a
             href={youtube}
             target="_blank"
-            className={`${youtube.length === 0 ? "hidden" : "block"} `}
+            className={`${youtube.length === 0 ? "hidden" : "block"}`}
           >
             Youtube
           </a>

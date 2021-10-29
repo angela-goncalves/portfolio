@@ -1,0 +1,9 @@
+export type PostMeta = {
+  title: string;
+  publishedAt: string;
+  description: string;
+  slug?: any;
+  category?: "draft" | "project" | "post";
+  image?: string;
+  source?: string;
+};

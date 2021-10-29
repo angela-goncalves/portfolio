@@ -2,7 +2,7 @@ import React, { Children } from "react";
 import Nav from "./Navbar";
 import Footer from "./Footer";
 
-export default function Layout({ children }) {
+export default function Layout({ children }: any) {
   return (
     <div>
       <Nav />

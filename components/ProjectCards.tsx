@@ -55,7 +55,7 @@ const projectsData = [
     description: "Freelance in team. Landing page about Fichap's service",
     image: "lightBlue",
     href: "https://fichap-ivory.vercel.app/",
-    gitHub: "https://github.com/pukiti/fichap",
+    gitHub: "",
     youtube: "",
     technologies: [
       {
