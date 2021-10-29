@@ -1,9 +1,9 @@
-export type PostMeta = {
+export type TypesCard = {
   title: string;
-  publishedAt: string;
   description: string;
-  slug?: any;
-  category?: "draft" | "project" | "post";
-  image?: string;
-  source?: string;
+  bgImage: string;
+  href: string;
+  youtube: string;
+  technologies: any;
+  github: string;
 };

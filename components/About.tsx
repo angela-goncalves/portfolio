@@ -39,7 +39,7 @@ export default function About() {
             Linkedin
           </a>
           <a
-            href="/angela-goncalves-frontend.pdf"
+            href="/AngelaGoncalves-FrontendDeveloper.pdf"
             download
             className="p-3 text-base md:text-xl font-semibold text-darkPink underline focus:outline-none hover:text-darkPurple"
           >

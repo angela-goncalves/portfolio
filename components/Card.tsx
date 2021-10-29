@@ -1,3 +1,4 @@
+import type { TypesCard } from "../types";
 export default function Card({
   title,
   description,
@@ -6,7 +7,7 @@ export default function Card({
   youtube,
   technologies,
   github,
-}) {
+}: TypesCard) {
   const bg =
     bgImage === "lightPink"
       ? "bg-pink2"
@@ -31,7 +32,7 @@ export default function Card({
           {description}
         </p>
         <div className="flex space-x-5 my-6 md:my-10">
-          {technologies.map((elem, index) => (
+          {technologies.map((elem: any, index: any) => (
             <img key={index} src={elem.src} className={`${elem.width}`} />
           ))}
         </div>
