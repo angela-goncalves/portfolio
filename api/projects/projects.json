@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "title": "Colab-Orange",
+    "port": "colab-orange",
+    "description": "An App where designers and developers can publish their own projects and contribute to others.",
+    "href": "https://cmyk-orange.vercel.app/",
+    "image": "lightBlue",
+    "youtube": "https://www.youtube.com/watch?v=YG0m_E9qb9s",
+    "gitHub": "https://github.com/frontendcafe/cmyk-orange",
+    "technologies": [
+      {
+        "src": "../png/html5.png",
+        "width": "w-10 md:w-12"
+      },
+      {
+        "src": "../png/java-script.png",
+        "width": "w-10 md:w-12"
+      },
+      {
+        "src": "../svg/firebase.svg",
+        "width": "w-8 md:w-10"
+      },
+      {
+        "src": "../svg/bootstrap.svg",
+        "width": "w-10 md:w-14"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Task tracker (To-do list)",
+    "port": "task-tracker",
+    "description": "Add tasks and edit them if necessary, they will be saved in the localStorage.",
+    "image": "lightPink",
+    "href": "https://react-task-tracker-angela-goncalves.vercel.app/",
+    "gitHub": "https://github.com/angela-goncalves/react-task-tracker",
+    "youtube": "",
+    "technologies": [
+      {
+        "src": "../svg/react-icon.svg",
+        "width": "w-10 md:w-12"
+      },
+      {
+        "src": "../svg/tailwind.svg",
+        "width": "w-8 md:w-12"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Fichap",
+    "port": "fichap",
+    "description": "Freelance in team. Landing page about Fichap's service",
+    "image": "lightBlue",
+    "href": "https://fichap-ivory.vercel.app/",
+    "gitHub": "",
+    "youtube": "",
+    "technologies": [
+      {
+        "src": "../svg/react-icon.svg",
+        "width": "w-10 md:w-12"
+      },
+      {
+        "src": "../svg/next-js.svg",
+        "width": "w-8 md:w-12"
+      },
+      {
+        "src": "../svg/tailwind.svg",
+        "width": "w-10 md:w-12"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Marvel-Store/CMYK-sunset",
+    "port": "marvel-store",
+    "description": "Ecommerce to buy Marvel's comics. The user need to register with Google to buy.",
+    "href": "https://marvel-store.vercel.app/",
+    "image": "lightPink",
+    "youtube": "https://www.youtube.com/watch?v=5Ykdu-njQwM&t=179s",
+    "gitHub": "https://github.com/frontendcafe/cmyk-sunset",
+    "technologies": [
+      {
+        "src": "../svg/react-icon.svg",
+        "width": "w-10 md:w-12"
+      },
+      {
+        "src": "../svg/logo-Sass.svg",
+        "width": "w-10 md:w-12"
+      },
+      {
+        "src": "../svg/next-js.svg",
+        "width": "w-8 md:w-12"
+      },
+      {
+        "src": "../svg/firebase.svg",
+        "width": "w-8 md:w-10"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Survey Form",
+    "port": "survey-form",
+    "description": "Survey of restaurant's custumer satisfaction.",
+    "image": "lightBlue",
+    "href": "https://fcc-survey-form-page.vercel.app/",
+    "gitHub": "https://github.com/angela-goncalves/fcc-survey-form-page",
+    "youtube": "",
+    "technologies": [
+      {
+        "src": "../png/html5.png",
+        "width": "w-10 md:w-12"
+      },
+      {
+        "src": "../png/css-3.png",
+        "width": "w-10 md:w-12"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Product Landing Page",
+    "port": "landing-page",
+    "description": "Products for Skin Care. All about skincare, from products, offers and news.",
+    "image": "lightPink",
+    "href": "https://fcc-landing-page-nine.vercel.app/",
+    "gitHub": "https://github.com/angela-goncalves/fcc-Landing-page",
+    "youtube": "",
+    "technologies": [
+      {
+        "src": "../png/html5.png",
+        "width": "w-10 md:w-14"
+      },
+      {
+        "src": "../png/css-3.png",
+        "width": "w-10 md:w-14"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Technical Documentation Page",
+    "port": "document-page",
+    "description": "Introduction of Inmunology in spanish. Concepts and principal definitions.",
+    "image": "lightBlue",
+    "href": "https://fcc-documentation-page.angela-goncalves.vercel.app/",
+    "gitHub": "https://github.com/angela-goncalves/fcc-Documentation-page",
+    "youtube": "",
+    "technologies": [
+      {
+        "src": "../png/html5.png",
+        "width": "w-10 md:w-14"
+      },
+      {
+        "src": "../png/css-3.png",
+        "width": "w-10 md:w-14"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Tribute Page",
+    "port": "tribute-page",
+    "description": "I built it about my mom's favorite spanish singer, Juan Gabriel.",
+    "image": "lightPink",
+    "href": "https://fcc-tribute-page-eosin.vercel.app/",
+    "gitHub": "https://github.com/angela-goncalves/fcc-tribute-page",
+    "youtube": "",
+    "technologies": [
+      {
+        "src": "../png/html5.png",
+        "width": "w-10 md:w-14"
+      },
+      {
+        "src": "../png/css-3.png",
+        "width": "w-10 md:w-14"
+      }
+    ]
+  }
+]

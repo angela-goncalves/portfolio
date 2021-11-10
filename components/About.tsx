@@ -3,10 +3,10 @@ export default function About() {
   return (
     <div
       id="about"
-      className="flex flex-col justify-between md:flex-row mt-12 md:mt-0 items-center"
+      className="flex flex-col justify-between lg:flex-row mt-12 md:mt-0 items-center"
     >
       <div className="flex flex-col items-center">
-        <h1 className="p-2 pt-0 text-3xl md:text-7xl text-center text-darkPurple font-medium">
+        <h1 className="m-2 mt-0 text-3xl md:text-7xl text-center text-darkPurple font-medium">
           Hello, I'm Angela!
         </h1>
         <h2 className="md:mb-8 text-2xl md:text-5xl text-darkPurple text-center">
@@ -47,7 +47,7 @@ export default function About() {
           </a>
         </div>
       </div>
-      <div className="w-56 md:w-80">
+      <div className="w-56 md:w-80 lg:ml-8">
         <Image
           className="rounded-2xl"
           src="/png/me.jpg"

@@ -6,7 +6,7 @@ export default function Contact() {
       <h2 className="text-2xl md:text-5xl font-medium text-darkPurple">
         Contact
       </h2>
-      <div className="flex flex-col md:flex-row md:space-x-32 items-center">
+      <div className="flex flex-col lg:flex-row lg:justify-center lg:space-x-32 items-center">
         <Image
           alt="basement-supply"
           width={500}
