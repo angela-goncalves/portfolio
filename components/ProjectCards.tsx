@@ -1,8 +1,6 @@
 import Card from "./Card";
-import Link from "next/link";
 
 export default function allCards({ projects }: any) {
-  console.log(projects);
   return (
     <div id="projects" className="flex flex-col mt-40 items-center">
       <div className="w-full flex flex-row space-x-16 bg-lightPink shadow-box p-3 rounded-tr-lg rounded-tl-lg">
@@ -14,19 +12,16 @@ export default function allCards({ projects }: any) {
       <div className="w-full my-2 grid lg:grid-cols-2 xl:grid-cols-3 justify-items-center rounded-br-lg rounded-bl-lg">
         {projects.map((project: any) => (
           <div key={project.id}>
-            <Link href={`projects/${project.id}`}>
-              <a>
-                <Card
-                  title={project.title}
-                  bgImage={project.image}
-                  description={project.description}
-                  href={project.href}
-                  youtube={project.youtube}
-                  technologies={project.technologies}
-                  github={project.gitHub}
-                />
-              </a>
-            </Link>
+            <Card
+              id={project.id}
+              title={project.title}
+              bgColor={project.bgColor}
+              description={project.description}
+              href={project.href}
+              youtube={project.youtube}
+              technologies={project.technologies}
+              gitHub={project.gitHub}
+            />
           </div>
         ))}
       </div>

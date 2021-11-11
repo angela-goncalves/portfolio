@@ -2,180 +2,232 @@
   {
     "id": "1",
     "title": "Colab-Orange",
-    "port": "colab-orange",
-    "description": "An App where designers and developers can publish their own projects and contribute to others.",
+    "description": "To connect desingners, developers and people with ideas.",
+    "descriptionPage": "The App where designers, developers and people with ideas can publish their own projects and contribute to others.",
+    "features": [
+      "Registration form by email and password or by gmail.",
+      "Form for the creation of the profile with photo and description of the user.",
+      "The user can add links from social networks and stack to the profile.",
+      "To publish the project or idea, the user fills out a form with the information about it.",
+      "To collaborate with an idea or project published in the app, the user must fill out a form that will then be sent to the author of the idea, who will or will not accept the collaboration."
+    ],
+    "myTasks": [
+      "Survey the team to agree on the css framework, the language of the commits and the schedule of the weekly meetings.",
+      "Creating tasks from the 'Issues' section in the GitHub repository.",
+      "Communication with the team to resolve questions about code, commands and git conflicts.",
+      "Construction of the page layout.",
+      "Functionality related to firebase integration."
+    ],
+    "date": "Agust,'21 - September, '21",
     "href": "https://cmyk-orange.vercel.app/",
-    "image": "lightBlue",
+    "bgColor": "lightBlue",
+    "image": "/png/colabOrange.png",
+    "gif": "",
     "youtube": "https://www.youtube.com/watch?v=YG0m_E9qb9s",
     "gitHub": "https://github.com/frontendcafe/cmyk-orange",
     "technologies": [
       {
         "src": "../png/html5.png",
-        "width": "w-10 md:w-12"
+        "name": "html"
       },
       {
         "src": "../png/java-script.png",
-        "width": "w-10 md:w-12"
+        "name": "javaScript"
       },
       {
         "src": "../svg/firebase.svg",
-        "width": "w-8 md:w-10"
+        "name": "firebase"
       },
       {
         "src": "../svg/bootstrap.svg",
-        "width": "w-10 md:w-14"
+        "name": "bootstrap"
       }
     ]
   },
   {
     "id": "2",
     "title": "Task tracker (To-do list)",
-    "port": "task-tracker",
     "description": "Add tasks and edit them if necessary, they will be saved in the localStorage.",
-    "image": "lightPink",
+    "descriptionPage": "",
+    "myTasks": [],
+    "features": [],
+    "date": "June,'21 - July, '21",
+    "bgColor": "lightPink",
+    "image": "/png/taskTracker.png",
+    "gif": "/gif/taskTracker.mp4",
     "href": "https://react-task-tracker-angela-goncalves.vercel.app/",
     "gitHub": "https://github.com/angela-goncalves/react-task-tracker",
     "youtube": "",
     "technologies": [
       {
         "src": "../svg/react-icon.svg",
-        "width": "w-10 md:w-12"
+        "name": "react"
       },
       {
         "src": "../svg/tailwind.svg",
-        "width": "w-8 md:w-12"
+        "name": "tailwind"
       }
     ]
   },
   {
     "id": "3",
     "title": "Fichap",
-    "port": "fichap",
     "description": "Freelance in team. Landing page about Fichap's service",
-    "image": "lightBlue",
+    "descriptionPage": "",
+    "myTasks": [],
+    "features": [],
+    "date": "March,'21 - June, '21",
+    "bgColor": "lightBlue",
+    "image": "/png/fichap.png",
+    "gif": "/gif/fichap.mp4",
     "href": "https://fichap-ivory.vercel.app/",
     "gitHub": "",
     "youtube": "",
     "technologies": [
       {
         "src": "../svg/react-icon.svg",
-        "width": "w-10 md:w-12"
+        "name": "react"
       },
       {
         "src": "../svg/next-js.svg",
-        "width": "w-8 md:w-12"
+        "name": "next"
       },
       {
         "src": "../svg/tailwind.svg",
-        "width": "w-10 md:w-12"
+        "name": "tailwind"
       }
     ]
   },
   {
     "id": "4",
     "title": "Marvel-Store/CMYK-sunset",
-    "port": "marvel-store",
     "description": "Ecommerce to buy Marvel's comics. The user need to register with Google to buy.",
+    "descriptionPage": "",
+    "myTasks": [],
+    "features": [],
+    "date": "March,'21 - April, '21",
     "href": "https://marvel-store.vercel.app/",
-    "image": "lightPink",
+    "bgColor": "lightPink",
+    "image": "/marvelStore.jpg",
+    "gif": "/gif/marvel-Store.mp4",
     "youtube": "https://www.youtube.com/watch?v=5Ykdu-njQwM&t=179s",
     "gitHub": "https://github.com/frontendcafe/cmyk-sunset",
     "technologies": [
       {
         "src": "../svg/react-icon.svg",
-        "width": "w-10 md:w-12"
+        "name": "react"
       },
       {
         "src": "../svg/logo-Sass.svg",
-        "width": "w-10 md:w-12"
+        "name": "sass"
       },
       {
         "src": "../svg/next-js.svg",
-        "width": "w-8 md:w-12"
+        "name": "next"
       },
       {
         "src": "../svg/firebase.svg",
-        "width": "w-8 md:w-10"
+        "name": "firebase"
       }
     ]
   },
   {
     "id": "5",
     "title": "Survey Form",
-    "port": "survey-form",
     "description": "Survey of restaurant's custumer satisfaction.",
-    "image": "lightBlue",
+    "descriptionPage": "",
+    "myTasks": [],
+    "features": [],
+    "date": "December, '20 - January,'21",
+    "bgColor": "lightBlue",
+    "image": "/FCC-surveyForm.jpg",
+    "gif": "/gif/FCC-surveyForm.mp4",
     "href": "https://fcc-survey-form-page.vercel.app/",
     "gitHub": "https://github.com/angela-goncalves/fcc-survey-form-page",
     "youtube": "",
     "technologies": [
       {
         "src": "../png/html5.png",
-        "width": "w-10 md:w-12"
+        "name": "html"
       },
       {
         "src": "../png/css-3.png",
-        "width": "w-10 md:w-12"
+        "name": "css"
       }
     ]
   },
   {
     "id": "6",
     "title": "Product Landing Page",
-    "port": "landing-page",
     "description": "Products for Skin Care. All about skincare, from products, offers and news.",
-    "image": "lightPink",
-    "href": "https://fcc-landing-page-nine.vercel.app/",
+    "descriptionPage": "",
+    "myTasks": [],
+    "features": [],
+    "date": "January,'21",
+    "bgColor": "lightPink",
+    "image": "/png/fcc-landingPage.png",
+    "gif": "",
+    "href": "https://fcc-landing-page-angela-goncalves.vercel.app/",
     "gitHub": "https://github.com/angela-goncalves/fcc-Landing-page",
     "youtube": "",
     "technologies": [
       {
         "src": "../png/html5.png",
-        "width": "w-10 md:w-14"
+        "name": "html"
       },
       {
         "src": "../png/css-3.png",
-        "width": "w-10 md:w-14"
+        "name": "css"
       }
     ]
   },
   {
     "id": "7",
-    "title": "Technical Documentation Page",
-    "port": "document-page",
+    "title": "Documentation Page",
     "description": "Introduction of Inmunology in spanish. Concepts and principal definitions.",
-    "image": "lightBlue",
+    "descriptionPage": "",
+    "myTasks": [],
+    "features": [],
+    "date": "January,'21",
+    "bgColor": "lightBlue",
+    "image": "/png/fcc-document-page.png",
+    "gif": "/gif/fcc-document-page.png",
     "href": "https://fcc-documentation-page.angela-goncalves.vercel.app/",
     "gitHub": "https://github.com/angela-goncalves/fcc-Documentation-page",
     "youtube": "",
     "technologies": [
       {
         "src": "../png/html5.png",
-        "width": "w-10 md:w-14"
+        "name": "html"
       },
       {
         "src": "../png/css-3.png",
-        "width": "w-10 md:w-14"
+        "name": "css"
       }
     ]
   },
   {
     "id": "8",
     "title": "Tribute Page",
-    "port": "tribute-page",
     "description": "I built it about my mom's favorite spanish singer, Juan Gabriel.",
-    "image": "lightPink",
+    "descriptionPage": "",
+    "myTasks": [],
+    "features": [],
+    "date": "September, '20",
+    "bgColor": "lightPink",
+    "image": "/png/fcc-tribute-page.png",
+    "gif": "/gif/fcc-tribute-page.gif",
     "href": "https://fcc-tribute-page-eosin.vercel.app/",
     "gitHub": "https://github.com/angela-goncalves/fcc-tribute-page",
     "youtube": "",
     "technologies": [
       {
         "src": "../png/html5.png",
-        "width": "w-10 md:w-14"
+        "name": "html"
       },
       {
         "src": "../png/css-3.png",
-        "width": "w-10 md:w-14"
+        "name": "css"
       }
     ]
   }
