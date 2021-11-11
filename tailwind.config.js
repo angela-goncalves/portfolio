@@ -17,17 +17,16 @@ module.exports = {
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),
-      pink2: "#FFC7CF",
       darkblue: "#345881",
-      lightPink: "#F6DEE1",
       blue: "#6991BE",
+      green: "#636F44",
+      cream: "#C3863C",
+      red: "#AE4147",
+      pink2: "#c8777b",
+      lightPink: "#F6DEE1",
       darkPink: "#A63D4C",
       midPurple: "#604E6C",
     }),
-    backgroundImage: {
-      cardLightBlue: "url('/cardLightBlue.jpg')",
-      cardLightPink: "url('/cardLightPink.jpg')",
-    },
     borderColor: (theme) => ({
       ...theme("colors"),
       DEFAULT: theme("colors.gray.300", "currentColor"),
