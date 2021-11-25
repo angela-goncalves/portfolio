@@ -73,14 +73,14 @@ export default function Card({
           <a
             href={gitHub}
             target="_blank"
-            className={`${gitHub ? "hidden" : "block"}`}
+            className={`${gitHub.length === 0 ? "hidden" : "block"}`}
           >
             GitHub
           </a>
           <a
             href={youtube}
             target="_blank"
-            className={`${youtube ? "hidden" : "block"}`}
+            className={`${youtube.length === 0 ? "hidden" : "block"}`}
           >
             Youtube
           </a>
