@@ -23,16 +23,16 @@ export default function Card({
       <div className={`${bg} rounded-tr-lg rounded-tl-lg p-2 shadow-box`}>
         <img src="/svg/Group297.svg" alt="three circles" />
       </div>
-      <div className="w-full bg-gray-100 shadow-box rounded-br-lg rounded-bl-lg h-64 py-6 px-4  md:h-80 flex flex-col justify-center items-center">
+      <div className="w-full bg-gray-100 shadow-box rounded-br-lg rounded-bl-lg h-64 py-6 px-4  md:h-80 flex flex-col justify-between items-center">
         <Link href={`/projects/${id}`}>
-          <a className="flex flex-col justify-center items-center">
+          <a className="flex flex-col items-center">
             <h2 className="mb-2 md:mb-4 font-paragraph text-lg md:text-2xl text-center font-bold ">
               {title}
             </h2>
             <p className="md:w-full md:px-6 text-center font-normal text-base md:text-xl">
               {description}
             </p>
-            <div className="flex space-x-5 my-6">
+            <div className="flex space-x-5 my-4 md:my-6">
               {technologies.map((elem: any, index: any) => {
                 const size =
                   elem.name === "html"
@@ -53,6 +53,8 @@ export default function Card({
                     ? "w-10 md:w-14"
                     : elem.name === "sass"
                     ? "w-10 md:w-14"
+                    : elem.name === "mern"
+                    ? "w-24 md:w-32"
                     : "";
                 return (
                   <img

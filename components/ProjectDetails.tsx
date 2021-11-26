@@ -6,12 +6,12 @@ export default function ProjectDetails(project: ProjectTypes) {
   const { title, image, date, technologies, href, gitHub, youtube } = project;
 
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full flex flex-col items-center justify-center">
       <div className="w-full bg-darkblue shadow-box p-6 rounded-tr-xl rounded-tl-xl">
         <img src="/svg/Group297.svg" alt="three circles" />
       </div>
       <div className="w-full flex flex-col mt-12 items-center">
-        <h1 className="text-3xl md:text-5xl font-medium text-darkPurple mb-12">
+        <h1 className="text-3xl md:text-5xl font-medium text-center text-darkPurple mb-12">
           {title}
         </h1>
         <div className="px-6">
@@ -46,7 +46,7 @@ export default function ProjectDetails(project: ProjectTypes) {
               {youtube}
             </a>
           </div>
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap space-x-4 items-center">
             <h2>Techonologies:</h2>
             {technologies.map((elem: any, index: any) => {
               const size =
@@ -68,14 +68,10 @@ export default function ProjectDetails(project: ProjectTypes) {
                   ? "w-10 md:w-14"
                   : elem.name === "sass"
                   ? "w-10 md:w-14"
+                  : elem.name === "mern"
+                  ? "w-24 md:w-32"
                   : "";
-              return (
-                <img
-                  src={elem.src}
-                  key={index}
-                  className={`flex flex-wrap ${size}`}
-                />
-              );
+              return <img src={elem.src} key={index} className={`${size}`} />;
             })}
           </div>
         </div>
