@@ -12,9 +12,10 @@ module.exports = {
       darkPurple: "#311643",
       darkPink: "#A63D4C",
     }),
-    boxShadow: {
+    boxShadow: (theme) => ({
+      ...theme("shadows"),
       box: "0px 4px 6px 0px #00000040",
-    },
+    }),
     backgroundColor: (theme) => ({
       ...theme("colors"),
       darkblue: "#345881",

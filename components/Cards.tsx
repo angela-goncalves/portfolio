@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-export default function allCards({ projects }: any) {
+export default function Cards({ projects }: any) {
   return (
     <div id="projects" className="flex flex-col mt-40 items-center">
       <div className="w-full flex flex-row space-x-16 bg-lightPink shadow-box p-3 rounded-tr-lg rounded-tl-lg">

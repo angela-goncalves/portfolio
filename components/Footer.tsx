@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div className="bg-midPurple flex flex-col items-center p-4 md:p-11 mt-40 md:mt-56 text-white">
+      {/* A goToTop button in process. 
       <a href="#about" className="self-end">
         <svg
           width="38"
@@ -17,7 +18,7 @@ export default function Footer() {
             stroke="#311643"
           />
         </svg>
-      </a>
+      </a> */}
       <Link href="/">
         <a className="flex flex-col items-center">
           <svg

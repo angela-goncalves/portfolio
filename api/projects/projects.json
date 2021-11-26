@@ -2,27 +2,27 @@
   {
     "id": "1",
     "title": "Colab-Orange",
-    "description": "To connect desingners, developers and people with ideas.",
-    "descriptionPage": "The App where designers, developers and people with ideas can publish their own projects and contribute to others.",
+    "description": "To connect designers, developers and people with ideas.",
+    "descriptionPage": "If you are a designer, developer or just have an idea and want to finish your project but don't know how to fix a bug, need help with the design or maybe you would like to help other people with their work, Colab Orange is the app where you can get or provide that help. Take a look at the website and start connecting with the Colab Orange community. Worked in a small team of 3 Developers and a Designer",
     "features": [
-      "Registration form by email and password or by gmail.",
-      "Form for the creation of the profile with photo and description of the user.",
-      "The user can add links from social networks and stack to the profile.",
-      "To publish the project or idea, the user fills out a form with the information about it.",
-      "To collaborate with an idea or project published in the app, the user must fill out a form that will then be sent to the author of the idea, who will or will not accept the collaboration."
+      "Register by email and password or by gmail.",
+      "Create your profile with photo and description about you.",
+      "You can add links from social networks and your stack.",
+      "Fill out a form with the information about the project you would like to publish.",
+      "To collaborate with another work, fill out the form and send your help."
     ],
     "myTasks": [
+      "As coordinator:",
       "Survey the team to agree on the css framework, the language of the commits and the schedule of the weekly meetings.",
       "Creating tasks from the 'Issues' section in the GitHub repository.",
       "Communication with the team to resolve questions about code, commands and git conflicts.",
       "Construction of the page layout.",
       "Functionality related to firebase integration."
     ],
-    "date": "Agust,'21 - September, '21",
-    "href": "https://cmyk-orange.vercel.app/",
+    "date": "August,'21 - September, '21",
     "bgColor": "lightBlue",
     "image": "/png/colabOrange.png",
-    "gif": "",
+    "href": "https://cmyk-orange.vercel.app/",
     "youtube": "https://www.youtube.com/watch?v=YG0m_E9qb9s",
     "gitHub": "https://github.com/frontendcafe/cmyk-orange",
     "technologies": [
@@ -47,14 +47,23 @@
   {
     "id": "2",
     "title": "Task tracker (To-do list)",
-    "description": "Add tasks and edit them if necessary, they will be saved in the localStorage.",
-    "descriptionPage": "",
-    "myTasks": [],
-    "features": [],
+    "description": "Add, edit and delete tasks. Each task will be saved in the localStorage, so they'll stay there if you refresh the page.",
+    "descriptionPage": "You can create a list of tasks with their due date, edit them without worrying that they will be deleted when you refresh the page and delete each task when you complete them. ",
+    "myTasks": [
+      "Create functional components",
+      "Manage the state to save, create, delete and edit the task",
+      "Add styles with Tailwindcss"
+    ],
+    "features": [
+      "Each task of the list will be save in the local Storage.",
+      "Add tasks to the list",
+      "You can edit each task",
+      "Delete the task",
+      "Add date to do the task"
+    ],
     "date": "June,'21 - July, '21",
     "bgColor": "lightPink",
     "image": "/png/taskTracker.png",
-    "gif": "/gif/taskTracker.mp4",
     "href": "https://react-task-tracker-angela-goncalves.vercel.app/",
     "gitHub": "https://github.com/angela-goncalves/react-task-tracker",
     "youtube": "",
@@ -72,14 +81,22 @@
   {
     "id": "3",
     "title": "Fichap",
-    "description": "Freelance in team. Landing page about Fichap's service",
-    "descriptionPage": "",
-    "myTasks": [],
-    "features": [],
+    "description": "'Digital management and 100% cloud available for your work teams'",
+    "descriptionPage": "An HR Services website. Freelance project developed for a small team of 3 Frontend Developers. Worked in a small team of 3 Developers",
+    "myTasks": [
+      "Create and improve functional components.",
+      "Translate QA into actionable tasks for development.",
+      "Gitflow Workflow.",
+      "Keep communication with the team."
+    ],
+    "features": [
+      "You can select options that are presented in carousels",
+      "Once selected a plan need to fill forms to send your information",
+      "Animations on principal and accesory images"
+    ],
     "date": "March,'21 - June, '21",
     "bgColor": "lightBlue",
     "image": "/png/fichap.png",
-    "gif": "/gif/fichap.mp4",
     "href": "https://fichap-ivory.vercel.app/",
     "gitHub": "",
     "youtube": "",
@@ -101,29 +118,39 @@
   {
     "id": "4",
     "title": "Marvel-Store/CMYK-sunset",
-    "description": "Ecommerce to buy Marvel's comics. The user need to register with Google to buy.",
-    "descriptionPage": "",
-    "myTasks": [],
-    "features": [],
+    "description": "A web application to buy marvel comics. You can enter with an email to buy it.",
+    "descriptionPage": "Ecommerce to buy Marvel's comics. You can register with their email and password or with your gmail, find the comic you are looking for and take it in your cart!. Worked with a small team of 6 Developers",
+    "myTasks": [
+      "Create and improve functional components.",
+      "Create Sass style sheets.",
+      "Gitflow Workflow.",
+      "Keep communication with the team."
+    ],
+    "features": [
+      "If you select a comic from Home, it is added to the cart",
+      "At the cart you can chooce how many comics you want",
+      "If don't want a comic you can delete it.",
+      "Fill the form with your name and orther information to make the purchase",
+      "You can register with your email and password or with gmail to complete the purchase"
+    ],
     "date": "March,'21 - April, '21",
     "href": "https://marvel-store.vercel.app/",
     "bgColor": "lightPink",
     "image": "/marvelStore.jpg",
-    "gif": "/gif/marvel-Store.mp4",
-    "youtube": "https://www.youtube.com/watch?v=5Ykdu-njQwM&t=179s",
+    "youtube": "https://www.youtube.com/watch?v=5Ykdu-njQwM",
     "gitHub": "https://github.com/frontendcafe/cmyk-sunset",
     "technologies": [
       {
-        "src": "../svg/react-icon.svg",
-        "name": "react"
-      },
-      {
-        "src": "../svg/logo-Sass.svg",
-        "name": "sass"
+        "src": "../png/mern.png",
+        "name": "mern"
       },
       {
         "src": "../svg/next-js.svg",
         "name": "next"
+      },
+      {
+        "src": "../svg/logo-Sass.svg",
+        "name": "sass"
       },
       {
         "src": "../svg/firebase.svg",
@@ -134,14 +161,23 @@
   {
     "id": "5",
     "title": "Survey Form",
-    "description": "Survey of restaurant's custumer satisfaction.",
-    "descriptionPage": "",
-    "myTasks": [],
-    "features": [],
+    "description": "A Survey Form to know the custumer's opinion about the restaurant they have just visited.",
+    "descriptionPage": "How many times would you have liked to help improve the restaurant where you just ate, with a form like this you can let the restaurant know what you liked and what you did not like.",
+    "myTasks": [
+      "Create an HTML document with properly marked up content",
+      "Use Semantic HTML",
+      "Create the form with the corresponding tags",
+      "Create a file for the css"
+    ],
+    "features": [
+      "You can enter your personal data",
+      "Select one or more options to know your experience",
+      "You can type numbers or select a name from a list",
+      "Also, can leave a message to the restaurant"
+    ],
     "date": "December, '20 - January,'21",
     "bgColor": "lightBlue",
     "image": "/FCC-surveyForm.jpg",
-    "gif": "/gif/FCC-surveyForm.mp4",
     "href": "https://fcc-survey-form-page.vercel.app/",
     "gitHub": "https://github.com/angela-goncalves/fcc-survey-form-page",
     "youtube": "",
@@ -158,15 +194,22 @@
   },
   {
     "id": "6",
-    "title": "Product Landing Page",
-    "description": "Products for Skin Care. All about skincare, from products, offers and news.",
-    "descriptionPage": "",
-    "myTasks": [],
-    "features": [],
+    "title": "Skincare with Nature",
+    "description": "Landing page about skincare, products, offers and news. FCC project.",
+    "descriptionPage": "A freeCodeCamp project from 'Web Responsive Design' Lessons. ",
+    "myTasks": [
+      "Create an HTML document with properly marked up content",
+      "Use Semantic HTML",
+      "Create a file for the css"
+    ],
+    "features": [
+      "Navbar to link the sections of the page",
+      "Short video to know a bit of skin care",
+      "An input to write your email for subscription"
+    ],
     "date": "January,'21",
     "bgColor": "lightPink",
     "image": "/png/fcc-landingPage.png",
-    "gif": "",
     "href": "https://fcc-landing-page-angela-goncalves.vercel.app/",
     "gitHub": "https://github.com/angela-goncalves/fcc-Landing-page",
     "youtube": "",
@@ -183,11 +226,18 @@
   },
   {
     "id": "7",
-    "title": "Documentation Page",
-    "description": "Introduction of Inmunology in spanish. Concepts and principal definitions.",
-    "descriptionPage": "",
-    "myTasks": [],
-    "features": [],
+    "title": "Inmunology",
+    "description": "Introduction to Inmunology in spanish. Concepts and principal definitions.",
+    "descriptionPage": "An app to learn the principal concepts of this branch of biology that covers the study of immune systems. A freeCodeCamp project from 'Web Responsive Design' Lessons.",
+    "myTasks": [
+      "Create an HTML document with properly marked up content",
+      "Use Semantic HTML",
+      "Create a file for the css"
+    ],
+    "features": [
+      "With the fixed sidebar navigate to each section of the page",
+      "Images and text to define the inmunology concepts"
+    ],
     "date": "January,'21",
     "bgColor": "lightBlue",
     "image": "/png/fcc-document-page.png",
@@ -208,11 +258,20 @@
   },
   {
     "id": "8",
-    "title": "Tribute Page",
-    "description": "I built it about my mom's favorite spanish singer, Juan Gabriel.",
-    "descriptionPage": "",
-    "myTasks": [],
-    "features": [],
+    "title": "Juan Gabriel",
+    "description": "Tribute Page. My first app developed in HTML, with freeCodeCamp from 'Web Responsive Design' Lessons.",
+    "descriptionPage": "A small application to show information about an artist who's gone some time ago. I built it about my mom's favorite mexican singer, Juan Gabriel. ",
+    "myTasks": [
+      "Create an HTML document with properly marked up content",
+      "Use Semantic HTML",
+      "Create a file for the css"
+    ],
+    "features": [
+      "Links to know more about the singer",
+      "Using the img tag to add a singer's image",
+      "Text explaing who he was.",
+      "A footer to visit my profile in gitHub and codepen"
+    ],
     "date": "September, '20",
     "bgColor": "lightPink",
     "image": "/png/fcc-tribute-page.png",

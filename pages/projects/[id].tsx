@@ -42,8 +42,10 @@ export default function ProjectsPage({ project }: { project: ProjectTypes }) {
           rel="stylesheet"
         />
       </Head>
-      <ProjectDetails {...project} />
-      <ProjectDescription {...project} />
+      <div className="w-full flex flex-col items-center justify-center bg-gray-100">
+        <ProjectDetails {...project} />
+        <ProjectDescription {...project} />
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import About from "../components/About";
-import ProjectCards from "../components/ProjectCards";
+import Cards from "../components/Cards";
 import Contact from "../components/ContactMe";
 import type { GetStaticProps } from "next";
 
@@ -28,13 +28,9 @@ export default function Home({ projects }: any) {
         ></meta>
         <html lang="en" />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <About />
-      <ProjectCards projects={projects} />
+      <Cards projects={projects} />
       <Contact />
     </div>
   );
